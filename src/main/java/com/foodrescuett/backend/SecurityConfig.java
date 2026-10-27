@@ -31,7 +31,8 @@ public class SecurityConfig {
 
         config.setAllowedOrigins(List.of(
             "http://localhost:5173",
-            "https://food-rescue-frontend-eight.vercel.app"
+            "https://food-rescue-frontend-eight.vercel.app",
+            "https://food-rescue-frontend-4yos9dpr0-surbgitdev.vercel.app"
         ));
 
         config.setAllowedMethods(
